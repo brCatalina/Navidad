@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 200, 220);
+}
+.contenedor{
+    width: 500px;
+    height: 200px;
+    width: auto;
+    background-color: #c4b18200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+ }
+ .subContenedor{
+    display: flex;
+    flex-direction: column;
+    margin:center;
+ }
+ #mensaje{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(127, 30, 30);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom:25px;
+    margin-left: 40px;
+ }
+ .dia{
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 7px 2px #ffffff;
+    border: none;
+    padding: 10px 30px;
+    margin: 0 1%;
+    font-size: 30px;
+    color: aliceblue;
+ }
+ .hora{
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 7px 2px #ffffff;
+    border: none;
+    padding: 10px 30px;
+    margin: 0 1%;
+    font-size: 30px;
+    color: aliceblue;
+ }
+ .minuto{
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 7px 2px #ffffff;
+    border: none;
+    padding: 10px 30px;
+    margin: 0 1%;
+    font-size: 30px;
+    color: aliceblue;
+ }
+ .segundo{
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 8px 3px #ffffff;
+    border: none;
+    padding: 10px 30px;
+    margin: 0 1%;
+    font-size: 30px;
+    color: aliceblue;
+ }
+ .letra{
+    display: flex;
+    justify-content: space-around;
+ }
+ .n{
+    margin-top: 10PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    color: aliceblue;
+    height: 20px;
+    width: 20px;
+ }
+ .papaN{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.botones button{
+    padding: 20px 16px;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin:  8px 2px;
+    color: rgb(10, 0, 0);
+    background: rgb(255, 252, 252);
+    border-radius: 50px;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.botones button.act{
+    background-color: rgb(255, 0, 0);
+}
+.play, .pause{
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    font-family:cursive;
+    font-size: 20px;
+    margin: 20px;
+}
+.botones button.on{
+    pointer-events: none;
+    opacity: .7;
+}
+.noelOff{
+    width: 600px;
+    height: 550px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url("../img/papaNoel.png");
+    background-repeat: no-repeat;
+    }
+.noelOff.on{
+    background-image: url("../img/papANoel.gif");
+}
+.noelOnOff{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(127, 30, 30);
+    border-radius: 1vh;
+    border: .2rem solid rgb(127, 30, 30);
+    position: fixed;
+    color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: monospace;
+    cursor: pointer;
+}
+.botones button.act:hover{
+    background-color: rgb(201, 59, 59);
+}
+.play:hover,
+.pause:hover{
+    background-color:rgb(236, 210, 210);
+}
+.reloj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
